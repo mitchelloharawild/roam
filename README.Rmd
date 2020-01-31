@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN status](https://www.r-pkg.org/badges/version/roam)](https://CRAN.R-project.org/package=roam)
+[![R build status](https://github.com/mitchelloharawild/roam/workflows/R-CMD-check/badge.svg)](https://github.com/mitchelloharawild/roam)
 <!-- badges: end -->
 
 The roam package allows you to include larger datasets (and other objects) in packages without increasing installation size (and exceeding CRAN size limits). How? With *Remote Object ActiveBinding Magic* (roam).
